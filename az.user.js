@@ -33,11 +33,9 @@
             }
 
     function si(){
-        //console.log("一切正常");
         var mainframe=document.getElementById("mainframe").contentWindow;
-       var sub= mainframe.document.getElementsByClassName("btn-danger")[0].click();
-       var queding=document.getElementsByClassName("layui-layer-btn0")[0];
-queding.click();
+      mainframe.document.getElementsByClassName("btn-danger")[0].click();
+     document.getElementsByClassName("layui-layer-btn0")[0].click();
     }
 
 })();
