@@ -22,7 +22,7 @@
                 if(this.style.background=="red"){
                     this.style.background="green";
 
-                     selectIn=setInterval(si ,4000);
+                     selectIn=setInterval(si ,100);
                     this.innerHTML="正在运行";
                 }else{
                     this.style.background="red";
